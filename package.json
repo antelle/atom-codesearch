@@ -1,0 +1,39 @@
+{
+    "name": "atom-codesearch",
+    "main": "./lib/atom-codesearch",
+    "version": "0.0.0",
+    "description": "Super-fast search for code using Google CodeSearch",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": [
+            "code-search:toggle",
+            "code-search:reindex",
+            "code-search:purge-index"
+        ]
+    },
+    "repository": "https://github.com/antelle/atom-codesearch",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "configSchema": {
+        "debugMode": {
+            "type": "boolean",
+            "default": false,
+            "title": "Debug mode",
+            "description": "Print diagnostic messages to DevTools console"
+        },
+        "cindex": {
+            "type": "string",
+            "default": "",
+            "title": "Path to cindex",
+            "description": "Path to `cindex` executable, by default will be searched in `$GOPATH/bin` or `$HOME`"
+        },
+        "csearch": {
+            "type": "string",
+            "default": "",
+            "title": "Path to csearch",
+            "description": "Path to `csearch` executable, by default will be searched in `$GOPATH/bin` or `$HOME`"
+        }
+    }
+}

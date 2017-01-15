@@ -1,0 +1,8 @@
+{
+    ".platform-darwin": {
+        "cmd-alt-F": "code-search:toggle"
+    },
+    ".platform-win32, .platform-linux": {
+        "ctrl-alt-F": "code-search:toggle"
+    }
+}
