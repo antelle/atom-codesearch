@@ -7,7 +7,7 @@
     "activationCommands": {
         "atom-workspace": [
             "code-search:toggle",
-            "code-search:reindex",
+            "code-search:reindex-project",
             "code-search:purge-index"
         ]
     },
@@ -27,13 +27,13 @@
             "type": "string",
             "default": "",
             "title": "Path to cindex",
-            "description": "Path to `cindex` executable, by default will be searched in `$GOPATH/bin` or `$HOME`"
+            "description": "Path to `cindex` executable, by default will be searched in `$GOPATH/bin` or `$PATH`"
         },
         "csearch": {
             "type": "string",
             "default": "",
             "title": "Path to csearch",
-            "description": "Path to `csearch` executable, by default will be searched in `$GOPATH/bin` or `$HOME`"
+            "description": "Path to `csearch` executable, by default will be searched in `$GOPATH/bin` or `$PATH`"
         }
     }
 }

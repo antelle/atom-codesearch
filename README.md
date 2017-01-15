@@ -28,9 +28,9 @@ Windows, Linux: <kbd>ctrl-alt-shift-F</kbd>
 
 Open *Find with CodeSearch* window
 
-### Code Search: Reindex
+### Code Search: Reindex Project
 
-Reindex current project
+Reindex files in project
 
 ### Code Search: Purge Index
 
