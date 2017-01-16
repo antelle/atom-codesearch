@@ -34,7 +34,7 @@ Reindex files in project
 
 ### Code Search: Purge Index
 
-Purge index for current project (e.g., when there are some strange problems with it)
+Purge index, e.g., when there are some strange problems with it
 
 # Contributing
 
