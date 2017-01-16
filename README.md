@@ -35,3 +35,11 @@ Reindex files in project
 ### Code Search: Purge Index
 
 Purge index for current project (e.g., when there are some strange problems with it)
+
+# Contribution
+
+This package needs your help:
+- make it work on different OS
+- update index on file changes
+- simple installation, without a need to configure go
+- don't index ignored directories (e.g. node_modules)
