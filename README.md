@@ -36,7 +36,7 @@ Reindex files in project
 
 Purge index for current project (e.g., when there are some strange problems with it)
 
-# Contribution
+# Contributing
 
 This package needs your help:
 - make it work on different OS
