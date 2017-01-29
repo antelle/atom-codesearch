@@ -1,4 +1,4 @@
-## 0.2.2 - Windows bugfix
+## 0.3.0 - Windows bugfix
 
 ## 0.2.1 - Searching bugfix
 
