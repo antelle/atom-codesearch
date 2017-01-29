@@ -1,7 +1,7 @@
 {
   "name": "atom-codesearch",
   "main": "./lib/atom-codesearch",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Super-fast search for code using Google CodeSearch",
   "keywords": [],
   "activationCommands": {
