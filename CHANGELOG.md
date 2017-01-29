@@ -1,3 +1,5 @@
+## 0.2.2 - Windows bugfix
+
 ## 0.2.1 - Searching bugfix
 
 ## 0.2.0 - Indexing improvements
