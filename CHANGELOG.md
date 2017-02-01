@@ -1,3 +1,5 @@
+## 0.4.0 - Ignore file open errors
+
 ## 0.3.0 - Windows bugfix
 
 ## 0.2.1 - Searching bugfix
