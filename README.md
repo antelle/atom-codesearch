@@ -1,23 +1,32 @@
 # Atom CodeSearch
 
-Super-fast search for code using Google CodeSearch.
+Super-fast search for code using different search engines:
+
+- ripgrep (`rg`)
+- The Silver Searcher (`ag`)
+- The Platinum Searcher (`pt`)
+- Google CodeSearch (`csearch`)
 
 You will find this package useful if searching across your code takes a lot of time. With CodeSearch, it's a couple of seconds.
 
 # Installation
 
 1. install this package
-2. install and configure Go
-3. download and build Google CodeSearch
+2. install your preferred search engine:
 
-Something like this:
+  - [ripgrep](https://github.com/BurntSushi/ripgrep)
+  - [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
+  - [The Platinum Searcher](https://github.com/monochromegane/the_platinum_searcher)
+  - [Google CodeSearch](https://github.com/google/codesearch)
+    - install and configure Go
+    - download and build Google CodeSearch:
 
-```
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
+        ```
+        export GOROOT=/usr/local/go
+        export GOPATH=$HOME/go
 
-go get github.com/google/codesearch/cmd/{cindex,csearch}
-```
+        go get github.com/google/codesearch/cmd/{cindex,csearch}
+        ```
 
 # Usage
 
@@ -30,13 +39,9 @@ Windows, Linux: <kbd>ctrl-alt-shift-F</kbd>
 
 Open *Find with CodeSearch* window
 
-### Code Search: Reindex Project
+### Index management
 
-Reindex files in project
-
-### Code Search: Purge Index
-
-Purge index, e.g., when there are some strange problems with it
+If you're using Google CodeSearch, please use `cindex` to purge or manage your index.
 
 # Tricky stuff
 
@@ -48,4 +53,3 @@ This package needs your help:
 - make it work on different OS
 - update index on file changes
 - simple installation, without a need to configure go
-- don't index ignored directories (e.g. node_modules)
