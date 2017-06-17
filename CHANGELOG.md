@@ -1,3 +1,5 @@
+## 1.0.0 - Support ripgrep, ag, pt
+
 ## 0.4.0 - Ignore file open errors
 
 ## 0.3.0 - Windows bugfix
