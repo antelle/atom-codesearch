@@ -43,9 +43,16 @@ Open *Find with CodeSearch* window
 
 If you're using Google CodeSearch, please use `cindex` to purge or manage your index.
 
+# Tips & Tricks
+
+Useful `opts` if you're using ripgrep:
+```
+--max-columns=1024 --type-not=svg
+```
+
 # Tricky stuff
 
-It's CodeSearch engine, not this package, who decides if a file is a text file or not, so it might skip something. You will NOT be notified of that. I strongly recommend that you look into [these constants](https://github.com/google/codesearch/blob/master/index/write.go#L88) and tune them if required. Anyway, to avoid missing results, always search for critical things using plain old slow method.
+If you're using CodeSearch: it's CodeSearch engine, not this package, who decides if a file is a text file or not, so it might skip something. You will NOT be notified of that. I strongly recommend that you look into [these constants](https://github.com/google/codesearch/blob/master/index/write.go#L88) and tune them if required. Anyway, to avoid missing results, always search for critical things using plain old slow method.
 
 # Contributing
 
