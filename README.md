@@ -50,7 +50,7 @@ If you're using Google CodeSearch, please use `cindex` to purge or manage your i
 
 # Tips & Tricks
 
-###  `ripgrep`
+###  ripgrep
 
 Useful `opts`:
 ```
