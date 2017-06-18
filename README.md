@@ -40,6 +40,10 @@ Windows, Linux: <kbd>ctrl-alt-shift-F</kbd>
 
 Open *Find with CodeSearch* window
 
+### Code Search: Reindex Project
+
+Reindex project files: there's no option to auto reindex at the moment.
+
 ### Index management
 
 If you're using Google CodeSearch, please use `cindex` to purge or manage your index.
