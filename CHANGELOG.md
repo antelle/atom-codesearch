@@ -1,3 +1,5 @@
+## 1.2.0 - support windows and linux
+
 ## 1.1.0 - bugfixes
 
 ## 1.0.0 - Support ripgrep, ag, pt
