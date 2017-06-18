@@ -27,7 +27,7 @@ You will find this package useful if searching across your code takes a lot of t
     ```
     go get github.com/sidiandi/codesearch/cmd/...
     ```
-    Or, from original repo, with less options: `github.com/google/cmd/...`
+    Or, the original Google version: `github.com/google/cmd/...`
 
 # Usage
 
@@ -59,7 +59,7 @@ Useful `opts`:
 
 ### Google CodeSearch
 
-There's a better version in this fork, it support many options like configurable exclusions, and provides binaries for all OS: `https://github.com/sidiandi/codesearch`
+There's a better version in this fork, it supports many options, like configurable exclusions, index path and so on, and provides binaries for all OS: `https://github.com/sidiandi/codesearch`
 Useful indexer opts for it:
 ```
 -exclude .gitignore
@@ -70,4 +70,3 @@ Useful indexer opts for it:
 This package needs your help:
 - make it work on different OS
 - update index on file changes
-- simple installation, without a need to configure go
