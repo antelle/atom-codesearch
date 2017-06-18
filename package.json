@@ -23,6 +23,10 @@
       "description": "Which search engine to use (it must be installed in your system)",
       "enum": [
         {
+          "value": "csearch",
+          "description": "Google CodeSearch"
+        },
+        {
           "value": "rg",
           "description": "ripgrep (rg)"
         },
@@ -33,10 +37,6 @@
         {
           "value": "pt",
           "description": "The Platinum Searcher"
-        },
-        {
-          "value": "csearch",
-          "description": "Google CodeSearch"
         }
       ],
       "order": 1
@@ -64,10 +64,20 @@
     },
     "useGlobalCodeSearchIndex": {
       "type": "boolean",
-      "default": true,
-      "title": "Use CodeSearch index from home",
-      "description": "Google CodeSearch: use ~/.csearchindex file",
-      "order": 20
+      "default": false,
+      "title": "CodeSearch index location",
+      "description": "Google CodeSearch: which .csearchindex file to use",
+      "order": 20,
+      "enum": [
+        {
+          "value": false,
+          "description": "Create per-project index files for faster indexing"
+        },
+        {
+          "value": true,
+          "description": "Use global index file from home directory: ~/.csearchindex"
+        }
+      ]
     },
     "debugMode": {
       "type": "boolean",
