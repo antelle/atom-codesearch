@@ -6,7 +6,8 @@
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-      "code-search:toggle"
+      "code-search:toggle",
+      "code-search:reindex-project"
     ]
   },
   "repository": "https://github.com/antelle/atom-codesearch",
