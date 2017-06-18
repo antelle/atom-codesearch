@@ -68,5 +68,5 @@ Useful indexer opts for it:
 # Contributing
 
 This package needs your help:
-- make it work on different OS
 - update index on file changes
+- better installation docs
