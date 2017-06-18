@@ -54,6 +54,20 @@
       "description": "Additional options passed to search engine",
       "order": 10
     },
+    "optsIndex": {
+      "type": "string",
+      "default": "",
+      "title": "Indexer options for CodeSearch",
+      "description": "Google CodeSearch: additional options passed to cindex",
+      "order": 11
+    },
+    "useGlobalCodeSearchIndex": {
+      "type": "boolean",
+      "default": true,
+      "title": "Use CodeSearch index from home",
+      "description": "Google CodeSearch: use ~/.csearchindex file",
+      "order": 20
+    },
     "debugMode": {
       "type": "boolean",
       "default": false,

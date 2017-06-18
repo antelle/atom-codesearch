@@ -18,15 +18,16 @@ You will find this package useful if searching across your code takes a lot of t
   - [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
   - [The Platinum Searcher](https://github.com/monochromegane/the_platinum_searcher)
   - [Google CodeSearch](https://github.com/google/codesearch)
-    - install and configure Go
+    - install and configure Go:
+    ```
+    export GOROOT=/usr/local/go;
+    export GOPATH=$HOME/go
+    ```
     - download and build Google CodeSearch:
-
-        ```
-        export GOROOT=/usr/local/go
-        export GOPATH=$HOME/go
-
-        go get github.com/google/codesearch/cmd/{cindex,csearch}
-        ```
+    ```
+    go get github.com/sidiandi/codesearch/cmd/...
+    ```
+    Or, from original repo, with less options: `github.com/google/cmd/...`
 
 # Usage
 
@@ -45,14 +46,20 @@ If you're using Google CodeSearch, please use `cindex` to purge or manage your i
 
 # Tips & Tricks
 
-Useful `opts` if you're using ripgrep:
+###  `ripgrep`
+
+Useful `opts`:
 ```
 --max-columns=1024 --type-not=svg
 ```
 
-# Tricky stuff
+### Google CodeSearch
 
-If you're using CodeSearch: it's CodeSearch engine, not this package, who decides if a file is a text file or not, so it might skip something. You will NOT be notified of that. I strongly recommend that you look into [these constants](https://github.com/google/codesearch/blob/master/index/write.go#L88) and tune them if required. Anyway, to avoid missing results, always search for critical things using plain old slow method.
+There's a better version in this fork, it support many options like configurable exclusions, and provides binaries for all OS: `https://github.com/sidiandi/codesearch`
+Useful indexer opts for it:
+```
+-exclude .gitignore
+```
 
 # Contributing
 
