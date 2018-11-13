@@ -1,3 +1,5 @@
+## 1.3.0 - new atom API support
+
 ## 1.2.0 - support windows and linux
 
 ## 1.1.0 - bugfixes
