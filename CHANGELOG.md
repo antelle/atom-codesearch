@@ -1,3 +1,5 @@
+## 1.4.0 - fix #6: broken ag
+
 ## 1.3.0 - new atom API support
 
 ## 1.2.0 - support windows and linux
