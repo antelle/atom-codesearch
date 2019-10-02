@@ -9,6 +9,10 @@ Super-fast search for code using different search engines:
 
 You will find this package useful if searching across your code takes a lot of time. With CodeSearch, it's a couple of seconds.
 
+# Looking for maintainer
+
+I'm not using Atom anymore. If you would like to maintain the project, please let me know.
+
 # Installation
 
 1. install this package
