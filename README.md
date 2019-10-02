@@ -11,7 +11,7 @@ You will find this package useful if searching across your code takes a lot of t
 
 # Looking for maintainer
 
-I'm not using Atom anymore. If you would like to maintain the project, please let me know.
+I'm not using Atom anymore. If you would like to maintain the project, please [let me know](https://github.com/antelle/atom-codesearch/issues/10).
 
 # Installation
 
